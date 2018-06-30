@@ -131,7 +131,7 @@ items = y_test.shape[0]
 test_time =  (end - start) / items
 # print('Test time taken per:', test_time)
 # print('Test loss:', score[0])
-print('Test accuracy:', score[1])
+print('Test accuracy:', score[1], ' ' * 200, score[1])
 print('Train time:', train_time)
 
 show_confusion_matrix(y_test, model.predict(x_test), classes)

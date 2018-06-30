@@ -145,9 +145,9 @@ def show_confusion_matrix(y_test, y_pred, classes):
                         title='Confusion matrix, without normalization')
 
     # Plot normalized confusion matrix
-    plt.figure()
-    plot_confusion_matrix(cnf_matrix, classes=class_names, normalize=True,
-                        title='Normalized confusion matrix')
+    # plt.figure()
+    # plot_confusion_matrix(cnf_matrix, classes=class_names, normalize=True,
+    #                     title='Normalized confusion matrix')
 
     plt.show()
 
